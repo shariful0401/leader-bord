@@ -1,0 +1,51 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F3F1FF;
+}
+main{
+  display: flex;
+  justify-content: center;
+}
+.section-title{
+  color: rgba(86, 46, 255, 1);
+  font-size: 24px;
+  margin-top: -17px;
+}
+.container{
+  background-color: #ffff;
+  width: 870px;
+  padding: 30px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap:30px;
+  margin-bottom: 30px;
+}
+
+.players img {
+  width: 50px;
+  height: 50px;
+}
+.player-name{
+  margin-left: 16px;
+  font-size: 18px;
+}
+.person {
+  display: flex;
+  align-items: center;
+}
+hr{
+  border: 1px solid #D1D1D1;
+}
+.top-blog{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.blog{
+  display: flex;
+}
+.blog img{
+  height: 177px;
+  width: 177px;
+}
