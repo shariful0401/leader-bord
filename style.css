@@ -93,7 +93,23 @@ hr{
 
 /* Responsive Media Queries */
 @media only screen and (max-width:668px) {
-  .players{
-    
+  .container{
+    width: 100%;
+  }
+  .person{
+    flex-direction: column;
+  }
+  .players, .blogs, .courses{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+/* Medium device */
+@media only screen and (min-width:669px) and (max-width:992px){
+  .container{
+    width: 100%;
+  }
+  .players, .blogs, .courses{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
